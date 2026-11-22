@@ -1,0 +1,4 @@
+notice,entry,day,from,to,status,known_day
+N1,A,4,09:00,09:10,closed,3
+N2,B,4,09:00,10:00,open,3
+N3,A,4,09:10,10:00,open,3

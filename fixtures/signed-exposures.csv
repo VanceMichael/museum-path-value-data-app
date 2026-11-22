@@ -1,0 +1,5 @@
+record,partner,terminal,day,from,to,entry,content,evidence_event,issued_day,state
+R1,P1,T1,2,09:20,09:40,B,C1,E8,2,signed
+R2,P2,T1,2,09:30,09:45,B,C2,E53,2,signed
+R3,P1,T1,4,09:00,09:20,A,C1,,3,scheduled
+R4,P2,T1,4,09:20,09:45,B,C2,,3,scheduled

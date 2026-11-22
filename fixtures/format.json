@@ -66,6 +66,44 @@
       "credit_weight",
       "from_day",
       "to_day"
+    ],
+    "signed-exposures": [
+      "record",
+      "partner",
+      "terminal",
+      "day",
+      "from",
+      "to",
+      "entry",
+      "content",
+      "evidence_event",
+      "issued_day",
+      "state"
+    ],
+    "entrance-notices": [
+      "notice",
+      "entry",
+      "day",
+      "from",
+      "to",
+      "status",
+      "known_day"
+    ],
+    "access-equipment": [
+      "device",
+      "day",
+      "from",
+      "to",
+      "terminals"
+    ],
+    "content-editions": [
+      "terminal",
+      "content",
+      "day",
+      "from",
+      "to",
+      "edition",
+      "language"
     ]
   },
   "links": [
@@ -92,6 +130,18 @@
       "content",
       "contracts",
       "content"
+    ],
+    [
+      "signed-exposures",
+      "partner",
+      "contracts",
+      "partner"
+    ],
+    [
+      "signed-exposures",
+      "evidence_event",
+      "events",
+      "entry"
     ]
   ]
 }

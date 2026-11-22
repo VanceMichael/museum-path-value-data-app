@@ -48,3 +48,7 @@ P29,EX29,T2,3,09:21,physical,H2,190
 P31,EX31,T2,2,09:23,physical,H2,300
 P33,EX33,T2,1,09:25,physical,H2,410
 P35,EX35,T2,3,09:27,physical,H2,520
+E53,V4,T1,2,09:35,play,C2,97
+E54,V5,T2,2,09:43,physical,H2,140
+E55,V6,T1,2,09:10,play,C1,73
+E56,V4,T2,2,09:55,physical,H2,92
