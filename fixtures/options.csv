@@ -1,0 +1,4 @@
+option,terminal,day,from,to,contents,assist_devices
+S1,T1,4,09:00,09:40,C1|C2,1
+S2,T1,4,09:20,10:00,C2,1
+S3,T3,4,09:20,10:00,C1,1

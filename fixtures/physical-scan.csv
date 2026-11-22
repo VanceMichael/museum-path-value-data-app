@@ -1,0 +1,5 @@
+day,terminal,hall,first,last,status
+1,T2,H2,09:00,10:00,active
+2,T2,H2,09:00,09:39,active
+2,T2,H2,09:39,10:00,unobserved
+3,T2,H2,09:00,10:00,active

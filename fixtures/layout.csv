@@ -1,0 +1,7 @@
+day,entry,terminal,hall,from,to,language,assist
+1,A,T1,H1,09:00,10:00,zh,true
+1,B,T3,H3,09:00,10:00,zh,false
+2,A,T1,H1,09:00,09:20,zh,true
+2,B,T1,H3,09:20,10:00,zh,true
+2,B,T3,H3,09:00,10:00,en,false
+3,B,T3,H3,09:00,10:00,en,true

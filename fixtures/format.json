@@ -1,0 +1,97 @@
+{
+  "tables": {
+    "tickets": [
+      "visit",
+      "day",
+      "party",
+      "kind",
+      "entry",
+      "party_size",
+      "first_seen"
+    ],
+    "events": [
+      "entry",
+      "visit",
+      "terminal",
+      "day",
+      "time",
+      "type",
+      "content",
+      "seconds"
+    ],
+    "layout": [
+      "day",
+      "entry",
+      "terminal",
+      "hall",
+      "from",
+      "to",
+      "language",
+      "assist"
+    ],
+    "clock-offsets": [
+      "terminal",
+      "day",
+      "seconds_add",
+      "known_day"
+    ],
+    "contracts": [
+      "partner",
+      "content",
+      "required_slots",
+      "qualified_min_seconds",
+      "shared_terminal",
+      "languages"
+    ],
+    "options": [
+      "option",
+      "terminal",
+      "day",
+      "from",
+      "to",
+      "contents",
+      "assist_devices"
+    ],
+    "physical-scan": [
+      "day",
+      "terminal",
+      "hall",
+      "first",
+      "last",
+      "status"
+    ],
+    "sharing": [
+      "partner",
+      "content",
+      "credit_weight",
+      "from_day",
+      "to_day"
+    ]
+  },
+  "links": [
+    [
+      "events",
+      "visit",
+      "tickets",
+      "visit"
+    ],
+    [
+      "clock-offsets",
+      "terminal",
+      "layout",
+      "terminal"
+    ],
+    [
+      "sharing",
+      "partner",
+      "contracts",
+      "partner"
+    ],
+    [
+      "sharing",
+      "content",
+      "contracts",
+      "content"
+    ]
+  ]
+}

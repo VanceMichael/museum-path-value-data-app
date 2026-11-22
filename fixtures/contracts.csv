@@ -1,0 +1,3 @@
+partner,content,required_slots,qualified_min_seconds,shared_terminal,languages
+P1,C1,2,60,T1,zh
+P2,C2,2,90,T1,zh|en
