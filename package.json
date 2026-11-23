@@ -1,13 +1,21 @@
 {
   "name": "local-data-review",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
   "engines": {
     "node": "22.23.4"
   },
+  "bin": {
+    "gallery-analysis": "./bin/analyze.mjs"
+  },
   "scripts": {
     "test": "node --test",
-    "check:materials": "node tools/check-materials.mjs"
+    "check:materials": "node tools/check-materials.mjs",
+    "analyze": "node bin/analyze.mjs fixtures"
+  },
+  "exports": {
+    "./pipeline": "./src/pipeline.mjs",
+    "./csv": "./src/csv.mjs"
   }
 }
